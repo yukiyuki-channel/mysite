@@ -15,6 +15,7 @@ header img {
 }
 
 img {
+  pointer-events: none;
   vertical-align: bottom;
 }
 
