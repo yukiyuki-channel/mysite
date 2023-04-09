@@ -1,2 +1,6 @@
 @charset "utf-8";
 
+img {
+  pointer-events: none;
+  vertical-align: bottom;
+}
