@@ -3,4 +3,5 @@
 img {
   pointer-events: none;
   vertical-align: bottom;
+  object-fit: cover
 }
