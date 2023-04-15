@@ -17,7 +17,7 @@ header img {
 img {
   pointer-events: none;
   vertical-align: bottom;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 h1 {

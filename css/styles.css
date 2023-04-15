@@ -11,10 +11,13 @@ header {
   vertical-align: bottom;
   object-fit: cover;
   width: 100%;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
 }
 
 h1 {
   margin: 0 auto;
 }
+
 
 
