@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* common */
+
+header {
+  padding: 0;
+}
+
+.header-img {
+  pointer-events: none;
+  vertical-align: bottom;
+  object-fit: cover;
+  width: 100%;
+  margin-right: calc(50% - 50vw);
+  margin-left: calc(50% - 50vw);
+}
+
+.container {
+  margin: 0 auto;
+}
+
+
