@@ -7,22 +7,20 @@ body {
   margin: 0;
 }
 
-header {
-  padding: 0;
-  margin: 0;
-}
-
-.header-img {
+img {
   pointer-events: none;
   vertical-align: bottom;
   object-fit: cover;
   width: 100%;
+}
+
+.header-img {
   margin-right: calc(50% - 50vw);
   margin-left: calc(50% - 50vw);
 }
 
-h1 {
-  margin: 16px auto 0;
+.container h1 {
+  text-align: center;
 }
 
 
