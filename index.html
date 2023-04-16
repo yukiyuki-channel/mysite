@@ -3,58 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- name属性はviewport、content属性は幅はデバイスの幅に、最初の倍率は等倍に -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>家族がクスッと笑顔になるwebページを作りたい!</title>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
 </head>
 <body>
   <header>
-    <img class = "header-img" src = "IMG_1402.JPG">
+    <div class="logo">
+      <h1>幸美-yukiゆきチャンネル</h1>
+    </div>
+    <div class="pc-menu">
+      <nav>
+        <ul>
+          <li><a href="index2.html" target="_blank">Portfolio</a></li>
+          <li><a href="#">Content</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="sp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
   </header>
 
+  <div class="overlay">
+    <span class="material-icons" id="close">close</span>
+    <nav>
+      <ul>
+        <li><a href="index2.html" target="_blank">Portfolio</a></li>
+        <li><a href="#">Content</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+    <img class = "header-img" src = "img/IMG_1402.JPG">
+  </header>
+
+
   <div class = "main">
-      <div class = "container">
-        <h1 class="title">初めまして。幸美‐yukiゆきチャンネル！</h1>
+    <div class = "container">
+      <h2 class="sp-title">初めまして。<br>幸美‐yukiゆきチャンネルへ！</h2>
+      <h2 class="pc-title">初めまして。幸美‐yukiゆきチャンネルへ！</h2>
+    </div>
+
+    <div class = "container">
+      <div class = "daily-contents">
+        <p>Webページを作っていくために、記録を残そうと思います。(2023/02/13)</p>
+        <div class = "text"></div>
       </div>
-      <div>
-        <a href="index2.html" target="_blank">簡単なプロフィール紹介</a>
+      <div class = "daily-contents">
+        <p>2023/02/15 2/13はあゆみの家にお泊り</p>
+        <div class = "text">2日間楽しかった。充実した2日はあっという間だった。</br>今日は2日間サボっていた主婦の仕事をしつつ、学習を進める。<br>買い出し。掃除。1週間の献立決め。名もない家事。</br>何だかこういう書き方をすると、めんどくさいみたい、、、。w</br>今日も有意義な1日にするぞー！</div>
       </div>
-      <div class = "container">
-        <div class = "daily-contents">
-          <p>Webページを作っていくために、記録を残そうと思います。(2023/02/13)</p>
-          <div class = "text"></div>
+      <div class = "daily-contents">
+        <p>2023/02/18 (sat) モーニングにジョギングに充実した土曜日ルーティン</p>
+        <div class = "text">
+          今日のモーニングは、cafe.largeさんへ。カフェラテ美味し。</br>お皿も可愛く、癒し。パンが半分なので、朝は小食で済ませたい方にはお勧め。</br>昼前の5kmジョギングは、女の子の日とおパンツの調子が悪く、途中からウォーキングに変更。</br>来週はしっかりジョギングするぞ！
+        </div>
+      </div>
+      <div class = "daily-contents">
+        <p>2023/02/19 (sun) 愛玩動物看護師の国家試験 よく頑張りました！</p>
+        <div class = "text">
+          今日はあゆみの国家試験でした。まずは、受験しようと決めた時点で凄い！</br>家の事から、仕事の事、付き合いなどでバタバタしてたと思うし、大変だったのではないかと思います。</br>本当に、試験を受けたあゆみは素晴らしい✧本当に、お疲れ様でした。</br>とりあえず、肩の荷は少し下りたかな？また今度、お疲れ会しよ(*´▽｀*)
+        </div>
+      </div>
+      <div class = "daily-contents">
+        <p>2023/04/14 (Fri) にゃにゃにゃにゃにゃー！</p>
+        <div class = "text">
+          本日で長かった矯正歯科への通院が終了致しました。小学生から現在の31歳まで、、、おおよそ15年。</br>ヤバいよね。口の中臭くなかったかな、、、。ずっと装置付いててｗ</br>途中で通院することが面倒になってしまい、装置を着けっぱなしで過ごしたことによりこんなに長い間かかってしまいました。</br>30代に入り、健康を意識し行動に起こすことができたので15年で済みました。</br>上の親知らずが出できているようなので、歯医者で見てもらうよ。
         </div>
         <div class = "daily-contents">
-          <p>2023/02/15 2/13はあゆみの家にお泊り</p>
-          <div class = "text">2日間楽しかった。充実した2日はあっという間だった。</br>今日は2日間サボっていた主婦の仕事をしつつ、学習を進める。<br>買い出し。掃除。1週間の献立決め。名もない家事。</br>何だかこういう書き方をすると、めんどくさいみたい、、、。w</br>今日も有意義な1日にするぞー！</div>
-        </div>
-        <div class = "daily-contents">
-          <p>2023/02/18 (sat) モーニングにジョギングに充実した土曜日ルーティン</p>
+          <p>2023/02/22 (wed) web作成を学び始めて2ヶ月</p>
           <div class = "text">
-            今日のモーニングは、cafe.largeさんへ。カフェラテ美味し。</br>お皿も可愛く、癒し。パンが半分なので、朝は小食で済ませたい方にはお勧め。</br>昼前の5kmジョギングは、女の子の日とおパンツの調子が悪く、途中からウォーキングに変更。</br>来週はしっかりジョギングするぞ！
-          </div>
-        </div>
-        <div class = "daily-contents">
-          <p>2023/02/19 (sun) 愛玩動物看護師の国家試験 よく頑張りました！</p>
-          <div class = "text">
-            今日はあゆみの国家試験でした。まずは、受験しようと決めた時点で凄い！</br>家の事から、仕事の事、付き合いなどでバタバタしてたと思うし、大変だったのではないかと思います。</br>本当に、試験を受けたあゆみは素晴らしい✧本当に、お疲れ様でした。</br>とりあえず、肩の荷は少し下りたかな？また今度、お疲れ会しよ(*´▽｀*)
-          </div>
-        </div>
-        <div class = "daily-contents">
-          <p>2023/04/14 (Fri) にゃにゃにゃにゃにゃー！</p>
-          <div class = "text">
-            本日で長かった矯正歯科への通院が終了致しました。小学生から現在の31歳まで、、、おおよそ15年。</br>ヤバいよね。口の中臭くなかったかな、、、。ずっと装置付いててｗ</br>途中で通院することが面倒になってしまい、装置を着けっぱなしで過ごしたことによりこんなに長い間かかってしまいました。</br>30代に入り、健康を意識し行動に起こすことができたので15年で済みました。</br>上の親知らずが出できているようなので、歯医者で見てもらうよ。
-          </div>
-          <div class = "daily-contents">
-            <p>2023/02/22 (wed) web作成を学び始めて2ヶ月</p>
-            <div class = "text">
-              え、もう2ヶ月経ったの？<br>日記はサボってしまっていたけどw<br>サイトのアップデートはしておりましたよ！！<br>最近は、立ちながら作業ができるハイデスクを探してます。<br>昇降デスクは高いし、まだ立って作業が続くか分からないので保留。<br>歯医者、よやくして自分。
-            </div>
+            え、もう2ヶ月経ったの？<br>日記はサボってしまっていたけどw<br>サイトのアップデートはしておりましたよ！！<br>最近は、立ちながら作業ができるハイデスクを探してます。<br>昇降デスクは高いし、まだ立って作業が続くか分からないので保留。<br>歯医者、よやくして自分。
           </div>
         </div>
       </div>
+    </div>
   </div>
 
+  <script src="js/main.js"></script>
 </body>
 </html>
 

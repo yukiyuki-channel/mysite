@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+/* モバイルファースト */
+
 body {
   margin: 0;
 }
@@ -46,6 +48,7 @@ section {
 
 section p {
   margin-top: 16px;
+  padding: 4px;
 }
 
 h2 {
@@ -68,9 +71,27 @@ footer {
   text-align: center;
 }
 
+.pc-p {
+  display: none;
+}
 
-/* モバイルファースト */
-/* width <= 670 */
-@media (min-width: 670px) {
 
+/* 768 <= width PC用画面 */
+@media (min-width: 768px) {
+
+  .sp-p {
+    display: none;
+  }
+
+  .pc-p {
+    display: block;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  section h3 {
+    text-align: center;
+  }
 }
