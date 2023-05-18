@@ -31,14 +31,21 @@ img {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
+  color: black;
 }
 
 main {
   padding: 0 16px;
+}
+
+.container {
+  padding: 0 32px;
 }
 
 .pc-menu,
@@ -135,15 +142,12 @@ main {
 }
 
 
-
-
 /* main */
 
 .container h2 {
   font-size: 32px;
   text-align: center;
 }
-
 
 
 /* ★PC用画面 768pc <= width */
@@ -182,12 +186,12 @@ main {
   }
 
 
-
   /* main */
 
   .pc-title {
     display: block;
   }
+
+
+ 
 }
-
-
